@@ -4,21 +4,24 @@ import Projects from './components/Projects';
 import Biography from './components/Biography';
 import Sites from './components/Sites';
 
+
 function App() {
   return (
     <div className="App">
-{/*       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#biography">Biography</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#sites">Sites</a></li>
-        </ul>
-      </nav> */}
+      <div className='img-bg'>
+        <nav className='navbar'>
+          <ul className=''>
+            <li><a href="#home">INICIO</a></li>
+            <li><a href="#biography">SOBRE MI</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#sites">SITIOS</a></li>
+          </ul>
+        </nav>
 
-      <section id="home">
-        <Home />
-      </section>
+        <section id="home"className='home-class'>
+            <Home />
+        </section>
+      </div>
 
       <section id="biography">
         <Biography />

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sites = () => {
   return (
-    <div>Sites</div>
+    <h1>Sites</h1>
   )
 }
 

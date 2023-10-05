@@ -1,8 +1,8 @@
 import './App.css';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Biography from './components/Biography';
-import Sites from './components/Sites';
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+import Biography from './components/biography/Biography';
+import Sites from './components/sites/Sites';
 
 
 function App() {

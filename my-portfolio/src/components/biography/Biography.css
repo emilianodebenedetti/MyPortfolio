@@ -1,0 +1,38 @@
+.biography-section {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh;
+}
+.biography-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: c;
+}
+.biography-image img{
+  max-width: 90%; 
+  height: auto;
+  padding: 20px;
+}
+.biography-description {
+  flex: 1;
+  padding-left: 20px;
+  margin-top: 20px;
+  height: 90%;
+}
+ 
+ @media (max-width: 768px) {
+  .biography-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .biography-description {
+    text-align: center;
+      padding-left: 0;
+      margin-top: 10px;
+  }
+  .biography-image img{
+    margin-bottom: 20px;
+  }
+ }
+  

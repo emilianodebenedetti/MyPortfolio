@@ -1,0 +1,34 @@
+[
+      {
+        "id": 1,
+        "name": "Proyecto 1",
+        "description": "Descripción del Proyecto 1",
+        "image": "my-portfolio/src/imgs/UniversalFitness.jpg",
+        "github": "",
+        "link":""
+      },
+      {
+        "id": 2,
+        "name": "Proyecto 2",
+        "description": "Descripción del Proyecto 2",
+        "image": "imagen2.jpg",
+        "github": "",
+        "link":""
+      },
+      {
+        "id": 3,
+        "name": "Proyecto 3",
+        "description": "Descripción del Proyecto 3",
+        "image": "imagen3.jpg",
+        "github": "",
+        "link":""
+      },
+      {
+        "id": 4,
+        "name": "Proyecto 4",
+        "description": "Descripción del Proyecto 4",
+        "image": "imagen4.jpg",
+        "github": "",
+        "link":""
+      }
+]

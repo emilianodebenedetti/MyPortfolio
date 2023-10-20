@@ -1,7 +1,7 @@
 .biography-section {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
+  justify-content: center; 
+  align-items: center; 
   height: 100vh;
 }
 .biography-content {

@@ -15,6 +15,7 @@ function App() {
             <li><a href="#biography">SOBRE MI</a></li>
             <li><a href="#projects">PROYECTOS</a></li>
             <li><a href="#sites">SITIOS</a></li>
+            
           </ul>
         </nav>
 
@@ -31,9 +32,9 @@ function App() {
         <Projects />
       </section>
 
-      <section id="sites">
+      {/* <section id="sites">
         <Sites />
-      </section>
+      </section> */}
     </div>
   );
 }

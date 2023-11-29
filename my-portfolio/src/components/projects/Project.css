@@ -1,5 +1,56 @@
-@media (min-width: 1134px) {
-    .project {
+.project-container {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 10%;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    overflow: auto;
+}
+.card img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
 
-    }
+.button {
+    border: none;
+    color: inherit;
+    font: inherit;
+    padding: 10px 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(74, 49, 218);
+}
+.project-detail {
+    position: fixed;
+    background: #20252c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 998;/* Asegura que el modal esté encima del resto del contenido */
+}
+.detail-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.detail-bg::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.801);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+@media (min-width: 1134px) {
+     
 }

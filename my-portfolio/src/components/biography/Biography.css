@@ -7,7 +7,6 @@
 .biography-content {
   display: flex;
   flex-direction: row;
-  justify-content: c;
 }
 .biography-image img{
   max-width: 90%; 
@@ -28,8 +27,8 @@
   }
   .biography-description {
     text-align: center;
-      padding-left: 0;
-      margin-top: 10px;
+    padding-left: 0;
+    margin-top: 10px;
   }
   .biography-image img{
     margin-bottom: 20px;

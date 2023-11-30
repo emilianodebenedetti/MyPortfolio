@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "MiTienda",
+    "resumen": "Prototipo de tienda",
     "description": "Primer prototipo de tienda web",
     "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/MiTienda.jpg?alt=media&token=eff0bee6-4aa3-4cf6-920f-113fe870b4c1&_gl=1*1wzin1h*_ga*MTMzMjE4ODk3My4xNjUyOTAyNzg3*_ga_CW55HF8NVT*MTY5ODUyNDQwOS45OC4xLjE2OTg1MjQ2MjUuMjQuMC4w",
     "mockup":"https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/mockups%2FMi%20Tienda.png?alt=media&token=d9baf216-3fe7-41f4-819c-8c6bbb56c537",
@@ -28,6 +29,7 @@
   { 
     "id": 2,
     "name": "MyWeatherApp",
+    "resumen": "Simulador de pronostico del tiempo",
     "description": "Proyecto para ver condiciones climaticas de cada ciudad, en cada pais en el mundo",
     "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/MyWeatherApp.jpg?alt=media&token=00b5620c-f5a8-41f4-a09a-df862a9699d9&_gl=1*10u7ue8*_ga*MTMzMjE4ODk3My4xNjUyOTAyNzg3*_ga_CW55HF8NVT*MTY5ODYyNTY3Mi45OS4wLjE2OTg2MjU2NzIuNjAuMC4w",
     "mockup":"https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/mockups%2FMyWeatherApp.png?alt=media&token=7d7a9804-3a1f-413d-b64c-0baf2e43f8e4",
@@ -54,7 +56,8 @@
   {
     "id": 3,
     "name": "Universal Fitness",
-    "description": "Tienda web donde se vende ropa deportiva mediante Whatsapp (Proyecto real)",
+    "resumen": "Tienda Web",
+    "description": "Tienda web donde se vende ropa deportiva mediante Whatsapp ",
     "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/UniversalFitness.jpg?alt=media&token=158eb9aa-22b7-4aec-a058-679806547168&_gl=1*ncmxzc*_ga*MTMzMjE4ODk3My4xNjUyOTAyNzg3*_ga_CW55HF8NVT*MTY5ODYyNTY3Mi45OS4xLjE2OTg2MjU2ODkuNDMuMC4w",
     
     "mockup":"https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/mockups%2FUniversal%20Fitness.png?alt=media&token=7090befd-6ea5-46a3-b86c-9486ce69b1fc",
@@ -81,7 +84,8 @@
   {
     "id": 4,
     "name": "Portfolio Victoria",
-    "description": "Portfolio (Proyecto real)",
+    "resumen": "Portfolio de moda",
+    "description": "Portfolio en el cual se imprimen y se detalla",
     "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/VictoriaLinaro.jpg?alt=media&token=148e1ee3-df7b-4a01-b7cc-cbf6d87eb67a&_gl=1*hi2wzh*_ga*MTMzMjE4ODk3My4xNjUyOTAyNzg3*_ga_CW55HF8NVT*MTY5ODYyNTY3Mi45OS4xLjE2OTg2MjU3MDUuMjcuMC4w",
     "mockup":"https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/mockups%2FPortfolio%20Vivtoria.png?alt=media&token=d660d628-8fa6-4491-b74d-cc94eb963c59",
     "span": [

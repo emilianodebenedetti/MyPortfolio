@@ -20,7 +20,7 @@ function App() {
         </nav>
 
         <section id="home"className='home-class'>
-            <Home />
+          <Home />
         </section>
       </div>
 
@@ -32,9 +32,9 @@ function App() {
         <Projects />
       </section>
 
-      {/* <section id="sites">
+      {<section id="sites">
         <Sites />
-      </section> */}
+      </section>}
     </div>
   );
 }

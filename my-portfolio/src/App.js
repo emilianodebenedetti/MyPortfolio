@@ -32,9 +32,9 @@ function App() {
         <Projects />
       </section>
 
-      {<section id="sites">
+      <section id="sites">
         <Sites />
-      </section>}
+      </section>
     </div>
   );
 }

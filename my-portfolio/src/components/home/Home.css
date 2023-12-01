@@ -10,18 +10,12 @@
   }
   
   .home-class h1 {
-    margin: 0;
-    font-size: 2rem; 
+    font-size: 4rem; 
   }
   .home-class p {
     margin-top: 10px;
     font-size: 1.2rem; 
   }
   .home-class button { 
-    border: none;
-    color: inherit;
-    font: inherit;
-    padding: 15px 50px 15px 50px;
-    cursor: pointer;
-    background-color: rgb(74, 49, 218);
+    background-color: rgb(23, 41, 141);
   }

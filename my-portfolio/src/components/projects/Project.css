@@ -31,7 +31,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 998;/* Asegura que el modal esté encima del resto del contenido */
+    z-index: 1;
 }
 .detail-bg {
     top: 0;

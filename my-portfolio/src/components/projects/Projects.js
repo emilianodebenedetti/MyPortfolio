@@ -31,6 +31,7 @@ const Projects = () => {
           name={project.name}
           span={project.span}
           description={project.description}
+          resumen={project.resumen}
           image={project.image}
           onSelect={() => handleProjectSelected(project)}
           />

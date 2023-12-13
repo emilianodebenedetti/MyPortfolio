@@ -1,3 +1,11 @@
+.background {
+    background-image: url('https://static5.depositphotos.com/1015682/520/i/450/depositphotos_5206904-stock-photo-binary-code-on-pixellated-screen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+    padding: 20px;
+    background-attachment: fixed;
+}
 .project-container {
     color: #ffffff;
     display: grid;
@@ -15,15 +23,15 @@
     height: auto;
 }
 
-.button {
+/* .button {
     border: none;
     color: inherit;
     font: inherit;
     padding: 10px 10px;
     margin: 10px;
     cursor: pointer;
-    background-color: rgb(74, 49, 218);
-}
+    background-color: rgb(218, 49, 49);
+} */
 .project-detail {
     position: fixed;
     background: #20252c;
@@ -50,7 +58,7 @@
     z-index: 999;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .project-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

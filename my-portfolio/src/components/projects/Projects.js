@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div>
+    <div className='background'>
       <h2>Mis proyectos</h2>
       <div className='project-container'>
         {projects.map((project) => (   
@@ -33,6 +33,8 @@ const Projects = () => {
           description={project.description}
           resumen={project.resumen}
           image={project.image}
+          mockup={project.mockup}
+          github={project.github}
           onSelect={() => handleProjectSelected(project)}
           />
         ))}

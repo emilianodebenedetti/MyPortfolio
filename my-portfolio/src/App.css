@@ -1,5 +1,5 @@
 .App section {
-  margin: 0 10rem;
+  margin: 0 0;
   font-family: 'Space Mono', monospace;
 }
 h1 {
@@ -26,6 +26,7 @@ body {
   background-image: url('https://images.unsplash.com/photo-1542831371-32f555c86880?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGlnbyUyMGRlJTIwcHJvZ3JhbWFjaW9ufGVufDB8fDB8fHww&w=1000&q=80');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh; 
 }
 .img-bg::before{
@@ -38,7 +39,7 @@ body {
   height: 100vh;
 }
 .navbar {
-    font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', monospace;
   display: block;
   background: #00000085;
   padding: 0 60px;
@@ -56,9 +57,6 @@ body {
 .navbar li {
   z-index: 1;
 }
-section {
-  min-height: 100vh;
-}
 a {
   text-decoration: none;
   color: inherit
@@ -69,8 +67,8 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
-@media (max-width: 768px) {
-  /* .App section, nav{
-    margin: 0 5rem;
-  } */
+@media (max-width: 1000px) {
+  .App section, nav{
+    margin: 0;
+  }
 }

@@ -7,6 +7,7 @@
     text-align: center;
     text-align: center;
     color: #ffffff;
+    min-height: 100vh;
   }
   
   .home-class h1 {

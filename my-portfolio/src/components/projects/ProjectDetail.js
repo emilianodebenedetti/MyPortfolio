@@ -3,7 +3,6 @@ import "./project.css"
 /* import technologies from './projects.json' */
 
 
-
 const ProjectDetail = ({ project, onClose }) => {
   return (
     <>
@@ -12,7 +11,7 @@ const ProjectDetail = ({ project, onClose }) => {
         <div className="fixed inset-0 transition-opacity" aria-hidden="true">
           <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
         </div>
-        <div className="relative bg-gray-700 rounded-none overflow-hidden shadow-xl max-w-5xl"> 
+        <div className="relative bg-gray-700 rounded-none overflow-hidden shadow-xl max-w-full md:max-w-2xl lg:max-w-5xl"> 
           {/* boton cerrar */}
           <button
             className="absolute top-0 right-0 m-4 text-white hover:text-gray-900 z-10" 
@@ -30,8 +29,8 @@ const ProjectDetail = ({ project, onClose }) => {
               />
             </svg>
           </button>
-          <div className="grid grid-cols-1 lg:grid-cols-2 h-full">
-            <figure className="h-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:h-min">
+            <figure>
               <img
                 className="lg:w-full lg:h-full lg:object-cover"
                 src={project.mockup}
@@ -52,6 +51,7 @@ const ProjectDetail = ({ project, onClose }) => {
               </div>
               <div className="flex justify-end space-x-4">
                   <a
+                    target='_blank'
                     href={project.link}
                     className="btn btn-primary rounded-none text-white px-4 py-2"
                     >
@@ -59,6 +59,7 @@ const ProjectDetail = ({ project, onClose }) => {
                   </a>
                   <a
                     href={project.github}
+                    target='_blank'
                     className="btn rounded-none bg-gray-300 text-gray-700 px-4 py-2"
                     >
                     Ver en GitHub

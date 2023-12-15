@@ -37,10 +37,6 @@
   height: 100px;
 }
 
-@media (max-width: 523px) {
-  
-}
-
 @media (max-width: 1023px) { /* para hasta 1023px */
   .biography-content {
     flex-direction: column;

@@ -3,35 +3,30 @@
     background-size: cover;
     background-position: center;
     height: 100%; 
-    padding: 20px;
+    padding: 20px 0;
     background-attachment: fixed;
 }
 .project-container {
     color: #ffffff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
     margin: 10%;
 }
 .card {
     border: 1px solid #ccc;
     overflow: auto;
+    min-width: 375px;
+    max-width: 600px;
+    margin: auto;
 }
+
 .card img {
     box-sizing: border-box;
     width: 100%;
     height: auto;
 }
 
-/* .button {
-    border: none;
-    color: inherit;
-    font: inherit;
-    padding: 10px 10px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: rgb(218, 49, 49);
-} */
 .project-detail {
     position: fixed;
     background: #20252c;
@@ -58,7 +53,7 @@
     z-index: 999;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .project-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

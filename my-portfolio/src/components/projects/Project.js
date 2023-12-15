@@ -6,7 +6,7 @@ import "../projects/project.css"
 const Project = ({ name, resumen, image, onSelect, span, github }) => {
   return (
     <>
-      <div className="card backdrop-blur-md bg-opacity-75 shadow-xl rounded-none">
+      <div className="card backdrop-blur-md shadow-xl rounded-none ">
         <figure className="w-full">
           <img src={image} alt="Shoes" className="w-full h-auto object-cover sm:h-64 md:h-48 lg:h-64"/>
         </figure>

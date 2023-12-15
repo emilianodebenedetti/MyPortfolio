@@ -2,36 +2,68 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
-  height: 100vh;
+  height: 70vh;
+  margin: 0 25%;
 }
 .biography-content {
   display: flex;
   flex-direction: row;
+  gap: 4px;
 }
 .biography-image img{
-  max-width: 90%; 
+  display: flex;
+  justify-content: center;
+  width: 20rem; 
   height: auto;
-  padding: 20px;
 }
 .biography-description {
   flex: 1;
-  padding-left: 20px;
   margin-top: 20px;
-  height: 90%;
 }
- 
- @media (max-width: 768px) {
+
+.technology-carousel {
+  /* margin: 20px 50px; */
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.technology-icon {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.technology-icon img {
+  display: flex;
+  width: auto; 
+  height: 100px;
+}
+
+@media (max-width: 676px) { /* para pantallas hasta de 676px */
+  .biography-section {
+    margin: 0 15%;
+  }
+}
+
+@media (max-width: 1523px) {
+  .biography-section {
+    margin: 0 10%;
+  }
+}
+  
+
+@media (max-width: 1023px) { /* para entre 676 y 1023px */
   .biography-content {
     flex-direction: column;
     align-items: center;
   }
   .biography-description {
-    text-align: center;
-    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
     margin-top: 10px;
   }
   .biography-image img{
+    
     margin-bottom: 20px;
   }
- }
+}
   

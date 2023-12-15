@@ -20,3 +20,9 @@
   .home-class button { 
     background-color: rgb(23, 41, 141);
   }
+
+  @media (max-width: 523px) {
+    .home-class h1 {
+      font-size: 3rem; 
+    }
+  }

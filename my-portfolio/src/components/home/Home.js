@@ -5,8 +5,9 @@ const Home = () => {
     <div className="home-class">
       <div>
         <p>Hola, soy</p>
-        <h1>Emiliano</h1>
-        <h1>Debenedetti.</h1>
+        <div className='flex flex-col items-center'>
+          <h1 className='mb-2'>Emiliano<br/>Debenedetti.</h1>
+        </div>
         <p>Estudiante de Desarrollo Web, especializado en Frontend.</p>
       </div>
       

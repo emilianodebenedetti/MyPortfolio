@@ -25,15 +25,18 @@ const CarruselTecnologias = () => {
     };
 
     return (
+      <>
         <div className="technology-carousel">
+        <h2 className='text-lg text-center py-8'>Mi stack de habilidades ...</h2>
             <Slider {...settings}>
             {technologies.map((tech, index) => (
-                <div className="technology-icon">
+              <div className="technology-icon">
                   <img key={index} src={tech.src} alt={tech.alt} />
                 </div>
             ))}
             </Slider>
         </div>
+      </>
   )
 }
 

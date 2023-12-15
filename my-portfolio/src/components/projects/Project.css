@@ -58,4 +58,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .card {
+        min-width: 200px;
+        max-width: 400px;
+        margin: auto;
+    }
 }

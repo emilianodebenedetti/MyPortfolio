@@ -4,7 +4,7 @@
   align-items: center; 
   width: auto;
   height: auto;
-  margin: 0 25%;
+  margin: 80px 400px;
 } 
 .biography-content {
   display: flex;
@@ -22,9 +22,8 @@
   margin-top: 20px;
 }
 .technology-carousel {
-  /* margin: 20px 50px; */
-  padding: 70px 0;
-  overflow: hidden;
+  padding: 0 0 40px 0;
+  margin: 30px 0;
 }
 
 .technology-icon {
@@ -38,7 +37,9 @@
   height: 100px;
 }
 
-
+@media (max-width: 523px) {
+  
+}
 
 @media (max-width: 1023px) { /* para hasta 1023px */
   .biography-content {
@@ -57,6 +58,6 @@
 
 @media (max-width: 1523px) {
   .biography-section {
-    margin: 0 10%;
+    margin: 40px 50px; 
   }
 }

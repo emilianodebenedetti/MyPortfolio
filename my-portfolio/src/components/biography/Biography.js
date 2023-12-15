@@ -18,7 +18,7 @@ const Biography = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center items-center'>
+      <div>
         <CarruselTecnologias />
       </div>
     </>

@@ -1,4 +1,5 @@
 .App section {
+  width: auto;
   margin: 0 0;
   font-family: 'Space Mono', monospace;
 }
@@ -40,33 +41,12 @@ body {
 }
 .navbar {
   font-family: 'Space Mono', monospace;
-  display: block;
-  background: #00000085;
+  background: #000000b9;
   padding: 0 60px;
-}
-.navbar ul {
-  display: flex;
-  margin: 0;
-  padding: 20px 0;
-}
-.navbar li {
-  display: inline;
-  margin-right: 10px;
+  position: fixed;
+  z-index: 2;
 }
 
-.navbar li {
-  z-index: 1;
-}
-a {
-  text-decoration: none;
-  color: inherit
-} 
-
-footer {
-  color: #000000;
-  text-align: center;
-  padding: 10px 0;
-}
 @media (max-width: 1000px) {
   .App section, nav{
     margin: 0;

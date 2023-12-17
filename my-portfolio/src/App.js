@@ -4,7 +4,6 @@ import Projects from './components/projects/Projects';
 import Biography from './components/biography/Biography';
 import Sites from './components/sites/Sites';
 
-
 function App() {
   return (
     <div className="App">

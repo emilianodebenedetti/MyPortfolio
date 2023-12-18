@@ -25,7 +25,7 @@ function App() {
           <div className="grid grid-flow-col gap-4 navbar-end">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li><a href="#biography">SOBRE MI</a></li>
+              <li><a href="#biography">SOBRE MI</a></li>  
               <li><a href="#projects">PROYECTOS</a></li>
             </ul>
           </div>

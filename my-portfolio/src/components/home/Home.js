@@ -1,5 +1,18 @@
 import React from 'react'
 import '../home/Home.css'
+import { saveAs } from 'file-saver';
+
+const handleDownloadPdf = () => {
+  // URL del archivo PDF
+  const pdfUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/Curriculum%2FCVEmiliano%20Debeneetti.pdf?alt=media&token=69517b44-80cc-4c41-af81-fe2eeb04ffef';
+
+  // Nombre del archivo al descargar
+  const fileName = 'documento.pdf';
+
+  // Descargar el archivo
+  saveAs(pdfUrl, fileName);
+};
+
 const Home = () => {
   return (
     <div className="home-class">
@@ -14,7 +27,7 @@ const Home = () => {
       <div className='grid gap-2 md:grid-cols-2 lg:grid-cols-2 pt-8'>
         <a className="my-2" href="#">
           {/* Descargar CV */}
-          <button className="btn sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
+          <button onClick={handleDownloadPdf} className="btn sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
             Descarga mi CV
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
@@ -30,7 +43,7 @@ const Home = () => {
           </button>            
         </a>
         {/* Mensaje a whatsapp */}
-        <a className="my-2" href="#">
+        <a className="my-2" href="https://api.whatsapp.com/send?phone=59899460931" target="_blank">
           <button className="btn  sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
             Contactame 
             <svg 

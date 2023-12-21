@@ -42,7 +42,7 @@ body {
 .navbar {
   font-family: 'Space Mono', monospace;
   background: #000000b9;
-  padding: 0 60px;
+  padding: 0 0px;
   position: fixed;
   z-index: 2;
 }

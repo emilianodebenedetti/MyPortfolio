@@ -25,7 +25,7 @@ const Home = () => {
       </div>
       
       <div className='grid gap-2 md:grid-cols-2 lg:grid-cols-2 pt-8'>
-        <a className="my-2" href="#">
+        <a className="my-2">
           {/* Descargar CV */}
           <button onClick={handleDownloadPdf} className="btn sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
             Descarga mi CV
@@ -43,7 +43,7 @@ const Home = () => {
           </button>            
         </a>
         {/* Mensaje a whatsapp */}
-        <a className="my-2" href="https://api.whatsapp.com/send?phone=59899460931" target="_blank">
+        <a className="my-2" href="https://api.whatsapp.com/send?phone=59899460931" target="_blank" rel="noreferrer">
           <button className="btn  sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
             Contactame 
             <svg 

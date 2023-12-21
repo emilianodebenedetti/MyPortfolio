@@ -63,4 +63,7 @@
         max-width: 400px;
         margin: auto;
     }
+    .background {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/bgs%2Fbackground-projects-mobile.jpg?alt=media&token=dbb4110e-302a-4328-b904-27fcf16a5ae2');
+    }
 }

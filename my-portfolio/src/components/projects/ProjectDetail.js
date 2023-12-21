@@ -52,14 +52,16 @@ const ProjectDetail = ({ project, onClose }) => {
               <div className="flex justify-end space-x-4">
                   <a
                     target='_blank'
+                    rel="noreferrer"
                     href={project.link}
                     className="btn btn-primary rounded-none text-white px-4 py-2"
                     >
                     Ir al sitio
                   </a>
                   <a
-                    href={project.github}
                     target='_blank'
+                    rel="noreferrer"
+                    href={project.github}
                     className="btn rounded-none bg-gray-300 text-gray-700 px-4 py-2"
                     >
                     Ver en GitHub

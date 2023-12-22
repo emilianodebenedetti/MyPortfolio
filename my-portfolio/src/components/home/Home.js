@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 
 const handleDownloadPdf = () => {
   // URL del archivo PDF
-  const pdfUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/Curriculum%2FCVEmiliano%20Debeneetti.pdf?alt=media&token=69517b44-80cc-4c41-af81-fe2eeb04ffef';
+  const pdfUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/Curriculum%2FEmiliano%20Debeneetti.pdf?alt=media&token=b01c7eff-1a0b-4fe5-bfc4-73ef5b2608e5';
 
   // Nombre del archivo al descargar
   const fileName = 'documento.pdf';

@@ -20,8 +20,11 @@
   .home-class button { 
     background-color: rgb(23, 41, 141);
   }
+  .home-class button:hover {
+    background-color: #000000b9;
+  }
 
-  @media (max-width: 523px) {
+  @media (max-width: 767px) {
     .home-class h1 {
       font-size: 3rem; 
     }

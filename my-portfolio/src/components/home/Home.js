@@ -28,7 +28,7 @@ const Home = () => {
         <a className="my-2">
           {/* Descargar CV */}
           <button onClick={handleDownloadPdf} className="btn sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
-            Descarga mi CV
+            Descargar CV
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="20px" 

@@ -28,7 +28,6 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh; 
 }
 .img-bg::before{
   content: "";
@@ -53,5 +52,6 @@ body {
   }
   .img-bg {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/bgs%2Fbackground-home-mobile.jpg?alt=media&token=145cfcf0-6642-4ba3-8aef-908057d614c7');
+    background-attachment: scroll;
   }
 }

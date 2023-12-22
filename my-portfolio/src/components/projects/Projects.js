@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <div className='background'>
-      <h2 className='text-center text-xl text-gray-900'>Proyectos destacados</h2>
+      <h2 className='text-center text-3xl font-bold text-gray-900 md:text-white lg:text-white py-8'>Proyectos destacados</h2>
       <div className='project-container'>
         {projects.map((project) => (   
           <Project

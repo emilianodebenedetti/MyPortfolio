@@ -8,10 +8,10 @@ const ProjectDetail = ({ project, onClose }) => {
     <>
       <div className="fixed inset-0 z-50 overflow-hidden flex items-center justify-center rounded-none">
         {/* fondo translucido */}
-        <div className="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div className="fixed inset-0 " aria-hidden="true">
           <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
         </div>
-        <div className="relative bg-gray-700 rounded-none overflow-hidden shadow-xl max-w-full md:max-w-2xl lg:max-w-5xl"> 
+        <div className="relative bg-gray-700 lg:h-auto md:h-auto rounded-none overflow-hidden shadow-xl max-w-full max-h-90 md:max-w-2xl lg:max-w-5xl"> 
           {/* boton cerrar */}
           <button
             className="absolute top-0 right-0 m-4 text-white text-gray-900 z-10" 

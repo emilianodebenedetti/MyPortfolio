@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         grey: "#393e44",
         transparent: "#000000b9",
-        violet: "rgb(23, 41, 141)"
+        violet: "rgb(23, 41, 141)",
+        sky:"rgb(59, 130, 200)"
       }
     },
   },

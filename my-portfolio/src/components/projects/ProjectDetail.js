@@ -14,7 +14,7 @@ const ProjectDetail = ({ project, onClose }) => {
         <div className="relative bg-gray-700 rounded-none overflow-hidden shadow-xl max-w-full md:max-w-2xl lg:max-w-5xl"> 
           {/* boton cerrar */}
           <button
-            className="absolute top-0 right-0 m-4 text-white hover:text-gray-900 z-10" 
+            className="absolute top-0 right-0 m-4 text-white text-gray-900 z-10" 
             onClick={onClose}
           >
             <svg
@@ -54,7 +54,7 @@ const ProjectDetail = ({ project, onClose }) => {
                     target='_blank'
                     rel="noreferrer"
                     href={project.link}
-                    className="btn btn-primary rounded-none text-white px-4 py-2"
+                    className="btn rounded-none bg-gray-300 hover:bg-violet hover:text-white text-gray-700 px-4 py-2"
                     >
                     Ir al sitio
                   </a>
@@ -62,7 +62,7 @@ const ProjectDetail = ({ project, onClose }) => {
                     target='_blank'
                     rel="noreferrer"
                     href={project.github}
-                    className="btn rounded-none bg-gray-300 text-gray-700 px-4 py-2"
+                    className="btn rounded-none bg-gray-300 hover:bg-violet hover:text-white text-gray-700 px-4 py-2"
                     >
                     Ver en GitHub
                     <svg

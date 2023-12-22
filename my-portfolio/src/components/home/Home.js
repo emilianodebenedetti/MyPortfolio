@@ -1,18 +1,13 @@
 import React from 'react'
 import '../home/Home.css'
 import { saveAs } from 'file-saver';
-
-const handleDownloadPdf = () => {
+const handleDownloadPdf = async () => {
   // URL del archivo PDF
   const pdfUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/Curriculum%2FEmiliano%20Debeneetti.pdf?alt=media&token=b01c7eff-1a0b-4fe5-bfc4-73ef5b2608e5';
-
   // Nombre del archivo al descargar
-  const fileName = 'documento.pdf';
-
-  // Descargar el archivo
+  const fileName = 'curriculum-emiliano.pdf';
   saveAs(pdfUrl, fileName);
 };
-
 const Home = () => {
   return (
     <div className="home-class">
@@ -28,8 +23,8 @@ const Home = () => {
         <a className="my-2">
           {/* Descargar CV */}
           <button onClick={handleDownloadPdf} className="btn sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
-            Descargar CV
-            <svg 
+            Ver currículum
+            {/* <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="20px" 
               height="20px" 
@@ -39,13 +34,13 @@ const Home = () => {
                 fill="currentColor" 
                 d="M19 9h-4V3H9v6H5l7 7l7-7zM5 18v2h14v-2H5z"
               />
-            </svg>
+            </svg> */}
           </button>            
         </a>
         {/* Mensaje a whatsapp */}
         <a className="my-2" href="https://api.whatsapp.com/send?phone=59899460931" target="_blank" rel="noreferrer">
           <button className="btn  sm:btn-sm md:btn-md lg:btn-lg rounded-sm text-white">
-            Contactame 
+            Contáctame 
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="20px" 

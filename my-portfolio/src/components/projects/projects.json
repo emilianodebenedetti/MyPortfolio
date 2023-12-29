@@ -52,7 +52,7 @@
       "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 256 351\"><defs><filter id=\"IconifyId18c01857be8f5e4740\" width=\"200%\" height=\"200%\" x=\"-50%\" y=\"-50%\" filterUnits=\"objectBoundingBox\"><feGaussianBlur in=\"SourceAlpha\" result=\"shadowBlurInner1\" stdDeviation=\"17.5\"/><feOffset in=\"shadowBlurInner1\" result=\"shadowOffsetInner1\"/><feComposite in=\"shadowOffsetInner1\" in2=\"SourceAlpha\" k2=\"-1\" k3=\"1\" operator=\"arithmetic\" result=\"shadowInnerInner1\"/><feColorMatrix in=\"shadowInnerInner1\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0\"/></filter><filter id=\"IconifyId18c01857be8f5e4741\" width=\"200%\" height=\"200%\" x=\"-50%\" y=\"-50%\" filterUnits=\"objectBoundingBox\"><feGaussianBlur in=\"SourceAlpha\" result=\"shadowBlurInner1\" stdDeviation=\"3.5\"/><feOffset dx=\"1\" dy=\"-9\" in=\"shadowBlurInner1\" result=\"shadowOffsetInner1\"/><feComposite in=\"shadowOffsetInner1\" in2=\"SourceAlpha\" k2=\"-1\" k3=\"1\" operator=\"arithmetic\" result=\"shadowInnerInner1\"/><feColorMatrix in=\"shadowInnerInner1\" values=\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0\"/></filter><path id=\"IconifyId18c01857be8f5e4742\" d=\"m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188L1.253 280.732Z\"/><path id=\"IconifyId18c01857be8f5e4743\" d=\"m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744l31.678 58.556Z\"/></defs><path fill=\"#FFC24A\" d=\"m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951L0 282.998Z\"/><use fill=\"#FFA712\" fill-rule=\"evenodd\" href=\"#IconifyId18c01857be8f5e4742\"/><use filter=\"url(#IconifyId18c01857be8f5e4740)\" href=\"#IconifyId18c01857be8f5e4742\"/><path fill=\"#F4BD62\" d=\"m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86l32.584 60.233Z\"/><use fill=\"#FFA50E\" fill-rule=\"evenodd\" href=\"#IconifyId18c01857be8f5e4743\"/><use filter=\"url(#IconifyId18c01857be8f5e4741)\" href=\"#IconifyId18c01857be8f5e4743\"/><path fill=\"#F6820C\" d=\"m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z\"/><path fill=\"#FDE068\" d=\"m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005\"/><path fill=\"#FCCA3F\" d=\"M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006l115.392-64.355Z\"/><path fill=\"#EEAB37\" d=\"M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752l-115.99 64.689Z\"/></svg>"
     ],
     "github": "https://github.com/emilianodebenedetti/control-stock-unifitlove.git",
-    "link": "#"
+    "link": ""
   },
   {
     "id": 3,
@@ -134,5 +134,25 @@
     ],
     "github": "https://github.com/emilianodebenedetti/reactJs-eCommerce.git",
     "link": "https://react-js-e-commerce-s3vo.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "To do list",
+    "resumen": "App para organizar tareas",
+    "description": "Lista en la cual podemos agregar, marcar como hechas y eliminar tareas fácilmente.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/ToDoList.jpg?alt=media&token=29c26dfa-5755-4e01-a401-e6e73adf3b96",
+    "mockup":"https://firebasestorage.googleapis.com/v0/b/portfolio-personal-dac18.appspot.com/o/mockups%2FTo%20Do%20List%20Mockup.png?alt=media&token=b297e0a8-da2c-485e-ab99-aaa05cdc3d53",
+    "span": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "technologies": [
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 32 32\"><path fill=\"#e44f26\" d=\"M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z\"/><path fill=\"#f1662a\" d=\"m16 27.858l8.17-2.265l1.922-21.532H16v23.797z\"/><path fill=\"#ebebeb\" d=\"M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z\"/><path fill=\"#fff\" d=\"M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83h-7.743z\"/></svg>",
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 128 128\"><path fill=\"#1572B6\" d=\"M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543l-45.119-12.526z\"/><path fill=\"#33A9DC\" d=\"m64.001 117.062l36.559-10.136l8.601-96.354h-45.16v106.49z\"/><path fill=\"#fff\" d=\"M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95V51.429z\"/><path fill=\"#EBEBEB\" d=\"m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018v-14.39z\"/><path fill=\"#fff\" d=\"m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881H81.127z\"/><path fill=\"#EBEBEB\" d=\"M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711h16.447z\"/></svg>",
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 256 256\"><path fill=\"#F7DF1E\" d=\"M0 0h256v256H0V0Z\"/><path d=\"m67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574\"/></svg>"
+    ],
+    "github": "https://github.com/emilianodebenedetti/to-do-list.git",
+    "link": "https://to-do-list-phi-lime.vercel.app/"
   }
 ]

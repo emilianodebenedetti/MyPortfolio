@@ -6,7 +6,7 @@ import "../projects/project.css"
 const Project = ({ name, resumen, image, onSelect, span, github }) => {
   return (
     <>
-      <button className="card backdrop-blur-md border shadow-xl rounded-none hover:border-2" onClick={() => onSelect(<Project/>)}>
+      <button className="card backdrop-blur-md border shadow-xl rounded-none" onClick={() => onSelect(<Project/>)}>
           <figure className="w-full">
             <img src={image} alt="Shoes" className="w-full h-auto object-cover sm:h-64 md:h-48 lg:h-64"/>
           </figure>

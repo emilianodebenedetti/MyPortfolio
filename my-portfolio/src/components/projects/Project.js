@@ -8,7 +8,7 @@ const Project = ({ name, resumen, image, onSelect, span, github }) => {
     <>
       <button className="card backdrop-blur-md border shadow-xl rounded-none" onClick={() => onSelect(<Project/>)}>
           <figure className="w-full">
-            <img src={image} alt="Shoes" className="w-full h-auto object-cover sm:h-64 md:h-48 lg:h-64"/>
+            <img src={image} alt={name} className="w-full h-auto object-cover sm:h-64 md:h-48 lg:h-64"/>
           </figure>
           <div className="card-body p-4">
             <h2 className="card-title text-xl font-semibold mb-2">{name}</h2>
